@@ -1,0 +1,203 @@
+[{
+    "question": "¿Nació en España?",
+    "numberQuestion": 1,
+    // "userResponse": true,
+    "answers": [{
+        "name": "Noe",
+        "answer": true
+      },
+      {
+        "name": "Cris",
+        "answer": true
+      },
+      {
+        "name": "MJ",
+        "answer": false
+      },
+      {
+        "name": "Azahara",
+        "answer": true
+      },
+      {
+        "name": "Ana",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "question": "¿Tiene el pelo largo?",
+    "numberQuestion": 2,
+    "userResponse": false,
+    "answers": [{
+        "name": "Noe",
+        "answer": false
+      },
+      {
+        "name": "Cris",
+        "answer": true
+      },
+      {
+        "name": "MJ",
+        "answer": true
+      },
+      {
+        "name": "Azahara",
+        "answer": true
+      },
+      {
+        "name": "Ana",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "question": "¿Le gustan los perros?",
+    "numberQuestion": 3,
+    "answers": [{
+        "name": "Noe",
+        "answer": true
+      },
+      {
+        "name": "Cris",
+        "answer": true
+      },
+      {
+        "name": "MJ",
+        "answer": false
+      },
+      {
+        "name": "Azahara",
+        "answer": false
+      },
+      {
+        "name": "Ana",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "question": "¿Le gusta Harry Potter?",
+    "numberQuestion": 4,
+    "answers": [{
+        "name": "Noe",
+        "answer": true
+      },
+      {
+        "name": "Cris",
+        "answer": true
+      },
+      {
+        "name": "MJ",
+        "answer": true
+      },
+      {
+        "name": "Azahara",
+        "answer": false
+      },
+      {
+        "name": "Ana",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "question": "¿Su plato favorito es la pasta?",
+    "numberQuestion": 5,
+    "answers": [{
+        "name": "Noe",
+        "answer": false
+      },
+      {
+        "name": "Cris",
+        "answer": true
+      },
+      {
+        "name": "MJ",
+        "answer": false
+      },
+      {
+        "name": "Azahara",
+        "answer": false
+      },
+      {
+        "name": "Ana",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "question": "¿Es alta?",
+    "numberQuestion": 6,
+    "answers": [{
+        "name": "Noe",
+        "answer": true
+      },
+      {
+        "name": "Cris",
+        "answer": false
+      },
+      {
+        "name": "MJ",
+        "answer": false
+      },
+      {
+        "name": "Azahara",
+        "answer": true
+      },
+      {
+        "name": "Ana",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "question": "¿Lleva gafas?",
+    "numberQuestion": 7,
+    "answers": [{
+        "name": "Noe",
+        "answer": false
+      },
+      {
+        "name": "Cris",
+        "answer": false
+      },
+      {
+        "name": "MJ",
+        "answer": true
+      },
+      {
+        "name": "Azahara",
+        "answer": false
+      },
+      {
+        "name": "Ana",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "question": "¿Ha bailado en un musical?",
+    "numberQuestion": 8,
+    "answers": [{
+        "name": "Noe",
+        "answer": false
+      },
+      {
+        "name": "Cris",
+        "answer": true
+      },
+      {
+        "name": "MJ",
+        "answer": false
+      },
+      {
+        "name": "Azahara",
+        "answer": false
+      },
+      {
+        "name": "Ana",
+        "answer": false
+      }
+    ]
+  }
+]
