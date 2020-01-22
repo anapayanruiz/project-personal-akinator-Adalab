@@ -1,8 +1,10 @@
-[{
+[
+  {
     "question": "¿Nació en España?",
     "numberQuestion": 1,
-    // "userResponse": true,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": true
       },
@@ -28,7 +30,8 @@
     "question": "¿Tiene el pelo largo?",
     "numberQuestion": 2,
     "userResponse": false,
-    "answers": [{
+    "answers": [
+      {
         "name": "Noe",
         "answer": false
       },
@@ -53,7 +56,9 @@
   {
     "question": "¿Le gustan los perros?",
     "numberQuestion": 3,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": true
       },
@@ -78,7 +83,9 @@
   {
     "question": "¿Le gusta Harry Potter?",
     "numberQuestion": 4,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": true
       },
@@ -103,7 +110,9 @@
   {
     "question": "¿Su plato favorito es la pasta?",
     "numberQuestion": 5,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": false
       },
@@ -128,7 +137,9 @@
   {
     "question": "¿Es alta?",
     "numberQuestion": 6,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": true
       },
@@ -153,7 +164,9 @@
   {
     "question": "¿Lleva gafas?",
     "numberQuestion": 7,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": false
       },
@@ -178,7 +191,9 @@
   {
     "question": "¿Ha bailado en un musical?",
     "numberQuestion": 8,
-    "answers": [{
+    "userResponse": false,
+    "answers": [
+      {
         "name": "Noe",
         "answer": false
       },

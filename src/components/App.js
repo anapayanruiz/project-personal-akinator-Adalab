@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/App.css';
-import questionsData from '../data/question.json';
+import questions from '../data/questions.json';
+import adalabers from '../data/users.json';
 import Question from './Question';
 import Answers from './Answers';
 
@@ -10,27 +11,40 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      questions: questionsData,
+      questions,
+      adalabers,
       step: 0,
     }
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(value) {
-    console.log('hago click', value);
+    const answerValue = value === 'Si';
     this.setState((prevState) => {
       return {
         step: prevState.step + 1,
+        adalabers: prevState.questions[prevState.step].answers.filter(answer => {
+          return answer.answer === answerValue
+        })
         // ...spread añadir el estado del la pregunta
       }
-    })
+    });
   }
+
+
+
+  // function filterAdalabers() {
+    
+  // }
+
 
   // function saber la siguiente pregunta
 
   render() {
+    console.log(this.state.adalabers);
+    
     // function nº de descartadas es mas de 1
-    const { question } = questionsData[this.state.step];
+    const { question } = questions[this.state.step];
     return (
       <div className="page">
         <Question

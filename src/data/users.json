@@ -1,21 +1,3 @@
-[{
-    "name": "Noe",
-    "descartada": true
-  },
-  {
-    "name": "Cris",
-    "descartada": true
-  },
-  {
-    "name": "MJ",
-    "descartada": true
-  },
-  {
-    "name": "Azahara",
-    "descartada": true
-  },
-  {
-    "name": "Ana",
-    "descartada": true
-  }
-]
+{
+  "users": ["Noe", "Cris", "MJ", "Azahara", "Ana"]
+}
